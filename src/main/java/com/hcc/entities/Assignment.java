@@ -9,10 +9,19 @@ public class Assignment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "current_status")
     private String status;
+
+    @Column(name = "assignment_number")
     private Integer number;
+
+    @Column(name = "github_url")
     private String githubUrl;
+
+    @Column(name = "branch")
     private String branch;
+
+    @Column(name = "review_video_url")
     private String reviewVideoUrl;
 
     @ManyToOne
