@@ -1,6 +1,7 @@
 package com.hcc.enums;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+
 // this is an example enum feel free to delete this once you have created your own.
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)
 public enum HelloEnum {
