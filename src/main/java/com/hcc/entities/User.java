@@ -32,10 +32,11 @@ public class User implements UserDetails {
     public User() {
     }
 
-    public User(LocalDate cohortStarDate, String username, String password, List<Authority> authorities) {
-        this.cohortStarDate = cohortStarDate;
+    public User(String username, String password, LocalDate cohortStarDate) {
         this.username = username;
         this.password = password;
+        this.cohortStarDate = cohortStarDate;
+        List<Authority> authorities = null;
         this.authorities = authorities;
     }
 

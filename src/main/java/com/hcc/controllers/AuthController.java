@@ -47,5 +47,4 @@ public class AuthController {
             throw new Exception("Invalid login credentials.");
         }
     }
-
 }
